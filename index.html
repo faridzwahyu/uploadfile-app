@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+      <!-- STYLE -->
+      <link rel="stylesheet" href="css/style.css" />
+      <title>Upload File</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <h1>Upload File</h1>
+         <form action="#">
+            <input type="file" id="inputFiles" />
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Browse file to upload</p>
+         </form>
+         <div class="progress-area">
+            <li class="row">
+               <i class="fas fa-file-alt"></i>
+               <div class="progress-content">
+                  <div class="progress-details">
+                     <span class="progress-name">image.png - Uploading</span>
+                     <span class="percent">50%</span>
+                  </div>
+                  <div class="progress-bar">
+                     <div class="progress-line"></div>
+                  </div>
+               </div>
+            </li>
+         </div>
+         <div class="uploaded-area">
+            <li class="row">
+               <i class="fas fa-file-alt"></i>
+               <div class="uploaded-content">
+                  <div class="uploaded-details">
+                     <span class="uploaded-name">image.png - Uploaded</span>
+                     <span class="size">50 kb</span>
+                  </div>
+                  <i class="fas fa-check"></i>
+               </div>
+            </li>
+         </div>
+      </div>
+      <script src="js/script.js"></script>
+   </body>
+</html>
