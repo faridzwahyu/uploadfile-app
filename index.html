@@ -15,36 +15,12 @@
       <div class="wrapper">
          <h1>Upload File</h1>
          <form action="#">
-            <input type="file" id="inputFiles" />
+            <input type="file" id="inputFiles" name="file" hidden />
             <i class="fas fa-cloud-upload-alt"></i>
             <p>Browse file to upload</p>
          </form>
-         <div class="progress-area">
-            <li class="row">
-               <i class="fas fa-file-alt"></i>
-               <div class="progress-content">
-                  <div class="progress-details">
-                     <span class="progress-name">image.png - Uploading</span>
-                     <span class="percent">50%</span>
-                  </div>
-                  <div class="progress-bar">
-                     <div class="progress-line"></div>
-                  </div>
-               </div>
-            </li>
-         </div>
-         <div class="uploaded-area">
-            <li class="row">
-               <i class="fas fa-file-alt"></i>
-               <div class="uploaded-content">
-                  <div class="uploaded-details">
-                     <span class="uploaded-name">image.png - Uploaded</span>
-                     <span class="size">50 kb</span>
-                  </div>
-                  <i class="fas fa-check"></i>
-               </div>
-            </li>
-         </div>
+         <div class="progress-area"></div>
+         <div class="uploaded-area"></div>
       </div>
       <script src="js/script.js"></script>
    </body>
